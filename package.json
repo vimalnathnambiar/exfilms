@@ -12,11 +12,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vmalnathnambiar/exfilms.git"
+    "url": "git+https://github.com/vimalnathnambiar/exfilms.git"
   },
-  "homepage": "https://github.com/vmalnathnambiar/exfilms#readme",
+  "homepage": "https://github.com/vimalnathnambiar/exfilms#readme",
   "bugs": {
-    "url": "https://github.com/vmalnathnambiar/exfilms/issues"
+    "url": "https://github.com/vimalnathnambiar/exfilms/issues"
   },
   "author": {
     "name": "Vimalnath Nambiar",

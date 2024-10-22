@@ -103,11 +103,15 @@ Data extraction and spectrum filtration have been tested on data files acquired 
 ```md
 # Clone repository
 
-$ git clone https://github.com/vmalnathnambiar/exfilms.git
+$ git clone https://github.com/vimalnathnambiar/exfilms.git
 
 # Navigate into repository
 
 $ cd exfilms
+
+# Install dependencies
+
+npm install
 
 # Build Docker image
 
@@ -183,7 +187,7 @@ For more guidance on how to use ExfilMS, please refer to our available guides be
 
 If you use ExfilMS in your work, please cite it using the following:
 
-Nambiar, V., & Nambiar, S. (2024). ExfilMS (Version 1.3.0) [Computer software]. https://doi.org/10.5281/zenodo.10976761
+Nambiar, V., & Nambiar, S. (2024). ExfilMS (Version 1.3.1) [Computer software]. https://doi.org/10.5281/zenodo.10976761
 
 <br>
 
@@ -196,11 +200,11 @@ Please refer to our license information [here](./LICENSE).
 [npm-image]: https://img.shields.io/npm/v/exfilms.svg
 [npm-url]: https://www.npmjs.com/package/exfilms
 [license-image]: https://img.shields.io/badge/License-MIT-yellow.svg
-[license-url]: https://github.com/vmalnathnambiar/exfilms/blob/main/LICENSE
-[cicd-image]: https://github.com/vmalnathnambiar/exfilms/actions/workflows/build-publish.yml/badge.svg
-[cicd-url]: https://github.com/vmalnathnambiar/exfilms/actions/workflows/build-publish.yml
-[codecov-image]: https://codecov.io/gh/vmalnathnambiar/exfilms/graph/badge.svg?token=V8O80QXJ5S
-[codecov-url]: https://codecov.io/gh/vmalnathnambiar/exfilms
+[license-url]: https://github.com/vimalnathnambiar/exfilms/blob/main/LICENSE
+[cicd-image]: https://github.com/vimalnathnambiar/exfilms/actions/workflows/build-publish.yml/badge.svg
+[cicd-url]: https://github.com/vimalnathnambiar/exfilms/actions/workflows/build-publish.yml
+[codecov-image]: https://codecov.io/gh/vimalnathnambiar/exfilms/graph/badge.svg?token=V8O80QXJ5S
+[codecov-url]: https://codecov.io/gh/vimalnathnambiar/exfilms
 [semantic-image]: https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release
 [semantic-url]: https://github.com/semantic-release/semantic-release
 [downloads-image]: https://img.shields.io/npm/dm/exfilms.svg

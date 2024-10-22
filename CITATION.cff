@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: 'If you use ExfilMS in your work, please cite it using the following:'
 title: 'ExfilMS'
-version: 1.3.0
+version: 1.3.1
 abstract: 'ExfilMS is a cross-platform, command line interface tool to extract mass spectrometry data from mzML formatted files, with filtering capabilities.'
 keywords:
   - 'mass spectrometry'
@@ -10,8 +10,8 @@ keywords:
   - 'data standardisation'
   - 'command line tool'
 license: 'MIT'
-repository-code: 'https://github.com/vmalnathnambiar/exfilms'
-url: 'https://github.com/vmalnathnambiar/exfilms#readme'
+repository-code: 'https://github.com/vimalnathnambiar/exfilms'
+url: 'https://github.com/vimalnathnambiar/exfilms#readme'
 date-released: '2024-03-21'
 authors:
   - family-names: 'Nambiar'
