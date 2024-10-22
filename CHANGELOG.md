@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/vimalnathnambiar/exfilms/compare/v1.3.0...v1.3.1) (2024-10-22)
+
+
+### Bug Fixes
+
+* **package:** update package URL paths and dependencies ([9ba3249](https://github.com/vimalnathnambiar/exfilms/commit/9ba3249564542eb8f05eeab38f3232e17ae2e40a))
+
 # [1.3.0](https://github.com/vmalnathnambiar/exfilms/compare/v1.2.8...v1.3.0) (2024-06-05)
 
 
