@@ -1,3 +1,21 @@
+# [2.0.0](https://github.com/vimalnathnambiar/exfilms/compare/v1.3.1...v2.0.0) (2025-03-13)
+
+
+### Bug Fixes
+
+* **eslint:** update config file ([fd50fd2](https://github.com/vimalnathnambiar/exfilms/commit/fd50fd2c9cce368a47793a278f4291f4157e0981))
+
+
+### Features
+
+* **exfilms:** major update ([1cadc27](https://github.com/vimalnathnambiar/exfilms/commit/1cadc275cc7665402585c4135f6a81c52fc17734))
+
+
+### BREAKING CHANGES
+
+* **exfilms:** (1) Removal of TSV as output format, (2) Refined spectrum array target filtering,
+and (3) New JSON output structure
+
 ## [1.3.1](https://github.com/vimalnathnambiar/exfilms/compare/v1.3.0...v1.3.1) (2024-10-22)
 
 
