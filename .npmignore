@@ -1,18 +1,31 @@
-# Tests
-data/
-src/__tests__/
-
-# GitHub Workflows
+# GitHub
+.git/
 .github/
+.gitignore/
+
+# VS Code
+.eslintrc.yml
+.prettierrc.json
+.vscode/
+
+# Vitest
+tests/
+vitest.config.js
+
+# Commitizen
+.czrc
+
+# Semantic Release
+.releaserc.json
+
+# npm
+.npmignore
 
 # Docker
+.dockerignore
+docker-compose.yml
 Dockerfile
 
-# Configuration files (Dev dependencies)
-.dockerignore
-.eslintrc.yml
-.gitignore
-.npmignore
-.prettierrc.json
-.releaserc.json
-vitest.config.js
+# Documentation and resources
+resources/data/
+CITATION.cff

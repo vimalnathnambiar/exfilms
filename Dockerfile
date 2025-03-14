@@ -1,16 +1,17 @@
+# Base image
 FROM node:latest
 
-# Set working directory
-WORKDIR /app/
+# Install Docker CLI
+RUN apt-get update && apt-get install -y docker.io
 
-# Copy package.json and package-lock.json
-COPY package*.json .
+# Working directory
+WORKDIR /exfilms/
+
+# Copy project files
+COPY . .
 
 # Install dependencies
 RUN npm install
 
-# Copy the rest into the working directory
-COPY . .
-
-# Command to run
-ENTRYPOINT ["node", "/app/src/exfilms.js"]
+# Run ExfilMS
+ENTRYPOINT ["node", "src/exfilms.js"]

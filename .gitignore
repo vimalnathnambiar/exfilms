@@ -130,9 +130,9 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-# macOS DS Store
+# macOS
 .DS_Store
 
-# Tests
-.tmp/
+# Vitest
+.vitest/
 vitest-report.junit.xml

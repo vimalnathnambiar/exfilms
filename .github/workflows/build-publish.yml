@@ -23,8 +23,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-      - run: npm ci
-      - run: npm test
+          cache: npm
+      - run: |
+          npm ci
+          npm test
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v4
         with:
@@ -50,8 +52,35 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-      - run: npm ci
-      - run: npm run semantic-release
+          cache: npm
+      - run: |
+          npm ci
+          npm run semantic-release
         env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+  docker-publish:
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    if: ${{ github.ref == 'refs/heads/main' }}
+    needs: [npm-publish]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v2
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+      - run: echo "VERSION=$(jq -r .version package.json)" >> $GITHUB_ENV
+      - name: Build and tag Docker image
+        run: |
+          docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/exfilms:${{ env.VERSION }} .
+          docker tag ${{ secrets.DOCKERHUB_USERNAME }}/exfilms:${{ env.VERSION }} ${{ secrets.DOCKERHUB_USERNAME }}/exfilms:latest
+      - name: Push Docker image to Docker Hub
+        if: success()
+        run: |
+          docker push ${{ secrets.DOCKERHUB_USERNAME }}/exfilms:${{ env.VERSION }}
+          docker push ${{ secrets.DOCKERHUB_USERNAME }}/exfilms:latest
