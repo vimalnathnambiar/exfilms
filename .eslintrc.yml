@@ -1,4 +1,0 @@
-parserOptions:
-  sourceType: module
-env:
-  vitest: true

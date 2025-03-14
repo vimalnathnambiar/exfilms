@@ -1,10 +1,10 @@
 # GitHub
 .git/
 .github/
-.gitignore/
+.gitignore
 
 # VS Code
-.eslintrc.yml
+.eslint.config.mjs
 .prettierrc.json
 .vscode/
 
@@ -27,5 +27,5 @@ docker-compose.yml
 Dockerfile
 
 # Documentation and resources
-resources/data/
 CITATION.cff
+resources/data/
