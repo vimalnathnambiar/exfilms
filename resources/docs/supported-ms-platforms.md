@@ -20,8 +20,7 @@ ExfilMS have been tested on data files acquired on the following MS platforms:
         <td rowspan=2>EVOQ</td>
         <td>WSMS .d</td>
         <td rowspan=12>.mzML</td>
-        <td rowspan=2>Not working
-            <li>Unsupported file format for mzML conversion using msConvert by ProteoWizard</li>
+        <td rowspan=2>Not working: Unsupported file format for mzML conversion using msConvert by ProteoWizard.
         </td>
     </tr>
     <tr>
@@ -42,8 +41,7 @@ ExfilMS have been tested on data files acquired on the following MS platforms:
     <tr>
         <td rowspan=2>timsToF</td>
         <td rowspan=2>timsToF Pro</td>
-        <td rowspan=2>Not working
-            <li>Node.js® I/O unable to read files > 2 GB. (<a href="https://github.com/nodejs/node/issues/55864">GitHub issue</a>)</li
+        <td rowspan=2>Not working: Node.js® I/O unable to read files > 2 GB (<a href="https://github.com/nodejs/node/issues/55864">GitHub issue</a>).
         </td>
     </tr>
     <tr>
