@@ -55,7 +55,7 @@ Nambiar, V., Schiemer, T., Nambiar, S., Whiley, L., Wong, K. W., Wang, G., Holme
 [commitizen]: http://commitizen.github.io/cz-cli/
 [commitizen-badge]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
 [doi-zenodo]: https://doi.org/10.5281/zenodo.10976761
-[doi-zenodo-badge]: https://img.shields.io/badge/Zenodo-10.5281/zenodo.10976761-blue?logo=doi&logoColor=blue
+[doi-zenodo-badge]: https://img.shields.io/badge/Zenodo-10.5281/zenodo.10976761-blue.svg?logo=doi&logoColor=blue
 [nodejs]: https://nodejs.org/en/download/
 [docker]: https://docs.docker.com/engine/install/
 [user-guide]: resources/docs/exfilms.md
