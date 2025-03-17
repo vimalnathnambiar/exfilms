@@ -45,7 +45,7 @@ Nambiar, V., Schiemer, T., Nambiar, S., Whiley, L., Wong, K. W., Wang, G., Holme
 [docker]: https://hub.docker.com/r/vimalnathnambiar/exfilms
 [docker-badge]: https://img.shields.io/docker/v/vimalnathnambiar/exfilms.svg?sort=semver&logo=docker&label=docker&color=%231D63ED
 [license]: LICENSE
-[license-badge]: https://img.shields.io/badge/License-MIT-yellow.svg
+[license-badge]: https://img.shields.io/github/license/vimalnathnambiar/exfilms.svg?color=yellow
 [codecov]: https://codecov.io/github/vimalnathnambiar/exfilms
 [codecov-badge]: https://codecov.io/github/vimalnathnambiar/exfilms/graph/badge.svg?token=V8O80QXJ5S
 [cicd]: https://github.com/vimalnathnambiar/exfilms/actions/workflows/build-publish.yml
