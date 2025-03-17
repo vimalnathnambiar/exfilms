@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/vimalnathnambiar/exfilms/compare/v2.0.0...v2.0.1) (2025-03-17)
+
+
+### Bug Fixes
+
+* semantic release automation ([cb4173c](https://github.com/vimalnathnambiar/exfilms/commit/cb4173c3a7772441c7f3667fd402283991c78e11))
+
 # [2.0.0](https://github.com/vimalnathnambiar/exfilms/compare/v1.3.1...v2.0.0) (2025-03-13)
 
 

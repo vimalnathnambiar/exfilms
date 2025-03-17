@@ -35,7 +35,7 @@ Please refer to our license information [here][license].
 
 If you use this software in your work, please cite it using the following metadata:
 
-Nambiar, V., Schiemer, T., Nambiar, S., Whiley, L., Wong, K. W., Wang, G., Holmes, E., & Wist, J. (2025). ExfilMS (Version 2.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.10976761
+Nambiar, V., Schiemer, T., Nambiar, S., Whiley, L., Wong, K. W., Wang, G., Holmes, E., & Wist, J. (2025). ExfilMS (Version 2.0.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.10976761
 
 <!-- Links -->
 
