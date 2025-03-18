@@ -37,8 +37,12 @@ describe('Integration Test', () => {
     mzRange: [0, NaN],
   };
 
-  test('default', async () => {
+  test('readPackage', () => {
+    readPackage('undefined');
     readPackage('version');
+  });
+
+  test('default', async () => {
     configuration.fileList = getDataFileList(configuration.inputDirectory);
     configuration.logFile = createOutputPath(configuration.outputDirectory);
 
@@ -46,7 +50,6 @@ describe('Integration Test', () => {
   });
 
   test('precision and metadata', async () => {
-    readPackage('version');
     configuration.fileList = getDataFileList(configuration.inputDirectory);
     configuration.logFile = createOutputPath(configuration.outputDirectory);
     configuration.precision = 4;
@@ -56,7 +59,6 @@ describe('Integration Test', () => {
   });
 
   test('spectrum data filtering', async () => {
-    readPackage('version');
     configuration.fileList = getDataFileList(configuration.inputDirectory);
     configuration.logFile = createOutputPath(configuration.outputDirectory);
     configuration.filterSpectrumData = true;
@@ -65,7 +67,6 @@ describe('Integration Test', () => {
   });
 
   test('spectrum array target filtering', async () => {
-    readPackage('version');
     configuration.fileList = getDataFileList(configuration.inputDirectory);
     configuration.logFile = createOutputPath(configuration.outputDirectory);
     configuration.spectrumArrayTarget = true;
@@ -96,7 +97,6 @@ describe('Integration Test', () => {
   });
 
   test('spectrum array range filtering', async () => {
-    readPackage('version');
     configuration.fileList = getDataFileList(configuration.inputDirectory);
     configuration.logFile = createOutputPath(configuration.outputDirectory);
     configuration.spectrumArrayTarget = false;

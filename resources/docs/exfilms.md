@@ -14,7 +14,7 @@
 
 ## Installation
 
-> _Prerequisites: [Node.js®][nodejs] and [Docker][docker]_
+> _Prerequisites: [Node.js®][nodejs] and [Docker®][docker]_
 
 To install ExfilMS, run:
 

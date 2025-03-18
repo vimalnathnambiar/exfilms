@@ -6,8 +6,9 @@ export default defineConfig({
     coverage: {
       enabled: true,
       exclude: [
-        'src/utils/docker.js',
         'eslint.config.mjs',
+        'scripts/',
+        'src/utils/docker.js',
         'src/exfilms.js',
         'src/utils/inquirerParser.js',
         'src/utils/yargsParser.js',

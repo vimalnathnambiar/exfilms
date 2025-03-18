@@ -4,9 +4,9 @@
 .gitignore
 
 # VS Code
-.eslint.config.mjs
 .prettierrc.json
 .vscode/
+eslint.config.mjs
 
 # Vitest
 tests/
@@ -17,13 +17,13 @@ vitest.config.js
 
 # Semantic Release
 .releaserc.json
+scripts/
 
 # npm
 .npmignore
 
 # Docker
 .dockerignore
-docker-compose.yml
 Dockerfile
 
 # Documentation and resources
