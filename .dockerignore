@@ -1,40 +1,32 @@
 # GitHub
-
 .git/
 .github/
 .gitignore
 
 # VS Code
-
 .prettierrc.json
 .vscode/
 eslint.config.mjs
 
 # Vitest
-
 tests/
 vitest.config.js
 
 # Commitizen
-
 .czrc
 
 # Semantic Release
-
 .releaserc.json
 scripts/
 
 # npm
-
 .npmignore
 
 # Docker
-
 .dockerignore
 Dockerfile
 
 # Documentation and resources
-
 CHANGELOG.md
 CITATION.cff
 README.md
